@@ -1,0 +1,150 @@
+:root{
+
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  padding:1rem 2rem;
+  margin:0 auto;
+}
+header{
+  border-bottom:2px solid gray;
+  background-color: lightgray;
+}
+.logo{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+}
+nav{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  margin:0 0.5rem;
+}
+nav li>a{
+  color:black;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav li>a:hover{
+  color: white;
+  background-color: lightgray;
+}
+.hero{
+  display:none;
+}
+main{
+  padding:2rem;
+  margin:0 auto;
+  text-align: center  ;
+  background-color: hsl(0,0%,95%);
+}
+
+.main-picture{
+  width:60%;
+}
+footer{
+  padding:2rem 0;
+  border-top: 2px solid gray;
+  text-align: center;
+  background-color: lightgray;
+
+}
+
+footer a{
+  color : black;
+  font-size: 2rem;
+  text-decoration: none;
+  padding:0 1rem;
+}
+
+.main-research{
+
+}
+.main-research    h1{
+  background-color: aqua;
+  margin: 5px;
+}
+.main-research    h2{
+  background-color: darkkhaki;
+  margin: 5px;
+}
+
+.card{
+  width:100%;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.card>img{
+  width:100%;
+  border-radius: 5px;
+}
+
+.card>span{
+  color:blue;
+  background-color: hsl(0,0%,90%);
+  position: absolute;
+  padding:0.5rem 1rem;
+  text-transform: capitalize;
+  top:0;
+  left:0;
+}
+.main-aboutme h2{
+  color:aqua;
+  margin:1rem;
+  text-decoration: underline;
+}
+/* =============================screen width 375px======================================= */
+@media only screen (min-width:375px){
+  .theme img{
+    width:100%;
+  }
+
+}
+/* =============================screen width 750px====================================== */
+@media only screen and (min-width:750px){
+  nav li{
+    display:inline;
+  }
+
+  .card{
+    width:49%;
+  }
+  .card>img{
+    width:100%;
+  }
+  .theme{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer a{
+    padding:0 3rem;
+  }
+}
+
+/* =============================screen width 900px====================================== */
+@media only screen and (min-width:900px){
+  .card{
+    width:30%;
+  }
+  footer a{
+    padding:0 5rem;
+  }
+}
+
