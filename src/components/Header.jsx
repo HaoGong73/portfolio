@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header>
+    <div className="header">
       <div className="container header-container">
         <nav>
-          <img className="logo" src="./images/headpic-01.png" alt="" />
+          <img className="logo" src="/images/headpic-01.png" alt={"logo"} />
           <ul>
             <li><Link to="/">home</Link></li>
             <li><Link to="/about-me">about me</Link></li>
@@ -15,7 +15,7 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-    </header>
+    </div>
   );
 }
 

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const AboutMe = () => {
   return (
 
-    <main>
+    <div className="main">
       <div className="container main-aboutme">
         <h2>winter</h2>
         <div className="theme theme-01">
@@ -56,7 +56,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
 

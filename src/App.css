@@ -14,7 +14,7 @@ body{
   padding:1rem 2rem;
   margin:0 auto;
 }
-header{
+.header{
   border-bottom:2px solid gray;
   background-color: lightgray;
 }
@@ -35,30 +35,34 @@ nav ul{
 nav li{
   margin:0 0.5rem;
 }
+
 nav li>a{
   color:black;
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
 }
+
 nav li>a:hover{
   color: white;
   background-color: lightgray;
 }
+
 .hero{
   display:none;
 }
-main{
+
+.main{
   padding:2rem;
   margin:0 auto;
   text-align: center  ;
   background-color: hsl(0,0%,95%);
 }
 
-.main-picture{
+.home-page img{
   width:60%;
 }
-footer{
+.footer{
   padding:2rem 0;
   border-top: 2px solid gray;
   text-align: center;
@@ -66,7 +70,7 @@ footer{
 
 }
 
-footer a{
+.footer a{
   color : black;
   font-size: 2rem;
   text-decoration: none;
@@ -133,7 +137,7 @@ footer a{
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  footer a{
+  .footer a{
     padding:0 3rem;
   }
 }
@@ -143,7 +147,7 @@ footer a{
   .card{
     width:30%;
   }
-  footer a{
+  .footer a{
     padding:0 5rem;
   }
 }

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Research = () => {
   return (
 
-    <main>
+    <div className="main">
       <div className="container main-research">
         <a href="https://mylearning.mitt.ca" >MyLearning-MITT</a>
         <h1>Week 1 - SD100</h1>
@@ -303,7 +303,7 @@ const Research = () => {
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
       </div>
-    </main>
+    </div>
 
   );
 }
