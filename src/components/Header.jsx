@@ -6,10 +6,6 @@ const Header = () => {
       <div className="container header-container">
         <nav>
           <img className="logo" src="./images/headpic-01.png" alt={"logo"} />
-          <img className="logo" src="/images/headpic-01.png" alt={"logo"} />
-          <img className="logo" src="/public/images/headpic-01.png" alt={"logo"} />
-          <img className="logo" src="./../public/images/headpic-01.png" alt={"logo"} />
-          <img className="logo" src="./../../public/images/headpic-01.png" alt={"logo"} />
           <ul>
             <li><Link to="/">home</Link></li>
             <li><Link to="/about-me">about me</Link></li>
