@@ -5,6 +5,7 @@ const AboutMe = () => {
 
     <div className="main">
       <div className="container main-aboutme">
+        <img className="main-picture" src="./images/glacier-2019-02.jpg" alt={"ice land"} />
         <div className="article">
           <h2>About me</h2>
           <p>
