@@ -273,15 +273,15 @@ const Research = () => {
         <a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer">Webpack</a><br />
         <a href="https://eslint.org/" target="_blank" rel="noopener noreferrer">ESLint</a><br />
         <a href="https://babeljs.io/" target="_blank" rel="noopener noreferrer">BabelJS</a><br />
-        <h2>Day 2 (2021-06-02)</h2>
+        <h2>Day 3 (2021-06-02)</h2>
         <a href="https://reactjs.org/docs/forms.html" target="_blank" rel="noopener noreferrer">React Controlled Components</a><br />
         <a href="https://reactjs.org/docs/lifting-state-up.html" target="_blank" rel="noopener noreferrer">React Lifting State Up</a><br />
         <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank" rel="noopener noreferrer">Tutorial: Intro to React</a><br />
-        <h2>Day 2 (2021-06-03)</h2>
+        <h2>Day 4 (2021-06-03)</h2>
         <a href="https://reactjs.org/docs/react-component.html#the-component-lifecycle" target="_blank" rel="noopener noreferrer">React Component Lifecycle</a><br />
         <a href="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/" target="_blank" rel="noopener noreferrer">React Component Lifecycle Diagram</a><br />
         <a href="https://reactjs.org/docs/react-component.html#commonly-used-lifecycle-methods" target="_blank" rel="noopener noreferrer">Commonly Used Lifecycle Methods</a><br />
-        <h2>Day 2 (2021-06-05)</h2>
+        <h2>Day 5 (2021-06-05)</h2>
         <a href="https://stackedit.io/app#" target="_blank" rel="noopener noreferrer">Markdown Demo</a><br />
         <a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">Basic Syntax</a><br />
         <h1>Week 19-SD260</h1>
@@ -291,15 +291,17 @@ const Research = () => {
         <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank" rel="noopener noreferrer">React Hooks</a><br />
         <a href="https://reactjs.org/docs/hooks-reference.html" target="_blank" rel="noopener noreferrer">Hooks API Reference</a><br />
         <a href="https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf" target="_blank" rel="noopener noreferrer">Throttle/Debounce</a><br />
+        <h1>Week 20-SD260</h1>
+        <h2>Day 2 (2021-06-15)</h2>
+        <a href="https://mylearning.mitt.ca/d2l/le/content/12169/viewContent/62759/View" target="_blank" rel="noopener noreferrer">React Popular Products App</a><br />
+        <h2>Day 3 (2021-06-16)</h2>
+        <a href="https://mylearning.mitt.ca/d2l/le/content/12169/viewContent/62786/View" target="_blank" rel="noopener noreferrer">Final Project</a><br />
+        <h2>Day 5 (2021-06-19)</h2>
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
-        <h2>Day 2 (2021-04-06)</h2>
-        <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
-        <h2>Day 3 (2021-04-07)</h2>
-        <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
-        <h2>Day 4 (2021-04-08)</h2>
+        <h1>Week 21-SD260</h1>
+        <h2>Day 2 (2021-06-22)</h2>
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
-        <h2>Day 5 (2021-04-09)</h2>
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
       </div>
