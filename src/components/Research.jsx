@@ -32,7 +32,7 @@ const Research = () => {
   return (
     <>
       <CssBaseline />
-      <Container fixed maxWidth="sm" className={classes.research}>
+      <Container fixed maxWidth="md" className={classes.research}>
 
         <div className="container main-research">
           <a href="https://mylearning.mitt.ca" >MyLearning-MITT</a>

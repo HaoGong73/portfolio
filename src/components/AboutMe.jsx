@@ -29,19 +29,27 @@ const AboutMe = () => {
 
     <>
       <CssBaseline />
-      <Container fixed maxWidth="sm" className={classes.aboutme}>
+      <Container fixed maxWidth="lg" className={classes.aboutme}>
         <img className={classes.images} src="./images/glacier-2019-02.jpg" alt={"ice land"} />
         <div className={classes.article}>
           <h3>About me</h3>
           <p>
-            My name is Hao Gong and I am from China.
+            My name is Hao Gong, and I am from Changchun, China.
           </p>
           <p>
-            When I was in university I studied in the computer science department. After graduated from university,  I have worked as a software developer for more than  20 years.
-            I have always been passionate about learning something interesting and I like to travel all over the world.
+            When I was in university I studied in the computer science department. After graduated from university in 1996,  I have worked as a software developer for more than  20 years. I have participated in more than 20 software projects and most of them were for the banks.
           </p>
           <p>
-            There are three people in my family, my wife, my son, and me.  I hope they could come to Canada soon.
+            Last year, I decided to make some changes in my life, and I also can provide a chance to my son to study in Canada. So, I came over to Canada and join MITT.
+
+          </p>
+          <p>
+            I like to travel all over the world. So far, I have been to the USA, Maldives, Singapore, and Canada.
+
+          </p>
+          <p>
+            There are three people in my family, my wife, my son, and me.  They cannot come to Canada now because of the pandemic. I hope they could come to Canada soon.
+
           </p>
         </div>
       </Container>

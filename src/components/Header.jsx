@@ -32,16 +32,15 @@ const Header = () => {
   return (
     <>
       <div className={classes.headAppBar}>
-        <AppBar position="static">
+        <AppBar position="static" >
           <Toolbar>
-
             <Avatar className={classes.avatar} alt="Hao Gong" src="./images/headpic-01.png" />
             <Typography variant="h6" className={classes.title}></Typography>
-            <Button component={Link} to="/" variant="contained" color="primary" disableElevation>home</Button>
+            <Button component={Link} to="/" size="large" variant="contained" color="primary" disableElevation>home</Button>
             <Button component={Link} to="/about-me" size="large" variant="contained" color="primary" disableElevation>about me</Button>
             <Button component={Link} to="/blog-page" size="large" variant="contained" color="primary" disableElevation>my blog</Button>
-            <Button component={Link} to="/contact-me" size="large" variant="contained" color="primary" disableElevation>contact me</Button>
             <Button component={Link} to="/research" size="large" variant="contained" color="primary" disableElevation>research</Button>
+            <Button component={Link} to="/contact-me" size="large" variant="contained" color="primary" disableElevation>contact me</Button>
           </Toolbar>
         </AppBar>
       </div>

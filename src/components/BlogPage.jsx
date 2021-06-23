@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '1.5rem',
     width: '60vw',
     lineHeight: '50px',
-    marginLeft: '100px',
+    // marginLeft: '100px',
   },
   author: {
     fontSize: '1rem',
@@ -86,23 +86,30 @@ const BlogPage = () => {
 
   return (<>
     <CssBaseline />
-    <Container fixed maxWidth="sm" className={classes.blogpage}>
+    <Container fixed maxWidth="lg" className={classes.blogpage}>
       {
         blogList.map((blog, index) => {
           return <Card className={classes.blog} key={index}>
-            <div className={classes.details}>
-              <CardContent className={classes.content}>
-                <Typography component="h5" variant="h5">
-                  {blog.name}
-                </Typography>
-                <Typography variant="subtitle1" color="textSecondary">
-                  Hao Gong
-                </Typography>
-                <Typography variant="subtitle1" color="textSecondary">
-                  {blog.date}
-                </Typography>
-              </CardContent>
-            </div>
+            <a
+              className="App-link"
+              href={blog.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={classes.details}>
+                <CardContent className={classes.content}>
+                  <Typography component="h5" variant="h5">
+                    {blog.name}
+                  </Typography>
+                  <Typography variant="subtitle1" color="textSecondary">
+                    Hao Gong
+                  </Typography>
+                  <Typography variant="subtitle1" color="textSecondary">
+                    {blog.date}
+                  </Typography>
+                </CardContent>
+              </div>
+            </a>
             <a
               className="App-link"
               href={blog.link}
