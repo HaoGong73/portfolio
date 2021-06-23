@@ -33,7 +33,7 @@ const HomePage = () => {
   return (
     <>
       <CssBaseline />
-      <Container fixed maxWidth="sm" className={classes.homepage}>
+      <Container fixed maxWidth="lg" className={classes.homepage}>
         <div className={classes.words}>
           <h3>Welcome to my portfolio</h3>
           <p>I am a MITT student now. So far I learnt HTML, CSS, Javascript, React.</p>
