@@ -17,7 +17,7 @@ const ContactMe = () => {
   return (
     <>
       <CssBaseline />
-      <Container fixed maxWidth="xl" className={classes.contactme}>
+      <Container fixed maxWidth="sm" className={classes.contactme}>
         <h3>Email Address</h3>
         <p>gonghao73@gmail.com</p>
       </Container>

@@ -25,6 +25,20 @@ body{
   margin: 5px;
 }
 
+.research a{
+  font-size: 1.3rem;
+  padding:2px;
+  margin-left: 10px;
+}
+.research    h1{
+  background-color: aqua;
+  margin: 5px;
+}
+.research    h2{
+  background-color: darkkhaki;
+  margin: 5px;
+}
+
 
 /* =============================screen width 375px======================================= */
 @media only screen (min-width:375px){

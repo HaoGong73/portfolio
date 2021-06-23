@@ -29,7 +29,7 @@ const AboutMe = () => {
 
     <>
       <CssBaseline />
-      <Container fixed maxWidth="xl" className={classes.aboutme}>
+      <Container fixed maxWidth="sm" className={classes.aboutme}>
         <img className={classes.images} src="./images/glacier-2019-02.jpg" alt={"ice land"} />
         <div className={classes.article}>
           <h3>About me</h3>

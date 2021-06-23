@@ -86,7 +86,7 @@ const BlogPage = () => {
 
   return (<>
     <CssBaseline />
-    <Container fixed maxWidth="xl" className={classes.blogpage}>
+    <Container fixed maxWidth="sm" className={classes.blogpage}>
       {
         blogList.map((blog, index) => {
           return <Card className={classes.blog} key={index}>
