@@ -19,7 +19,8 @@ const useStyles = makeStyles((theme) => ({
     width: '45vw',
   },
   images: {
-    width: '50vw',
+    width: '45vw',
+    marginLeft: '20px'
   }
 
 }));
@@ -36,7 +37,7 @@ const HomePage = () => {
           <p>I am a MITT student now. So far I learnt HTML, CSS, Javascript, React.</p>
           <p>This website is based on React and deployed on Github. </p>
         </div>
-        <img className="main-picture" src="./images/glacier-2019-01.jpg" alt={"ice land"} />
+        <img className={classes.images} src="./images/glacier-2019-01.jpg" alt={"ice land"} />
       </Container>
     </>
   );
