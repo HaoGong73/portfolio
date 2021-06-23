@@ -1,13 +1,38 @@
-import { Link } from 'react-router-dom';
+import Container from '@material-ui/core/Container';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  aboutme: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'start',
+    alignItems: 'center',
+    padding: '20px',
+  },
+  article: {
+    fontSize: '1.5rem',
+    width: '60vw',
+    lineHeight: '50px',
+    marginLeft: '100px',
+  },
+  images: {
+    height: '80vh',
+  }
+
+}));
 
 const AboutMe = () => {
+  const classes = useStyles();
+
   return (
 
-    <div className="main">
-      <div className="container main-aboutme">
-        <img className="main-picture" src="./images/glacier-2019-02.jpg" alt={"ice land"} />
-        <div className="article">
-          <h2>About me</h2>
+    <>
+      <CssBaseline />
+      <Container fixed maxWidth="xl" className={classes.aboutme}>
+        <img className={classes.images} src="./images/glacier-2019-02.jpg" alt={"ice land"} />
+        <div className={classes.article}>
+          <h3>About me</h3>
           <p>
             My name is Hao Gong and I am from China.
           </p>
@@ -19,8 +44,9 @@ const AboutMe = () => {
             There are three people in my family, my wife, my son, and me.  I hope they could come to Canada soon.
           </p>
         </div>
-      </div>
-    </div>
+      </Container>
+    </>
+
   );
 }
 

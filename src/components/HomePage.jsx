@@ -1,7 +1,5 @@
-// import { Link } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -9,18 +7,22 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   homepage: {
-    marginRight: theme.spacing(2),
+    // marginRight: theme.spacing(2),
     display: 'flex',
+    flexDirection: 'row',
     justifyContent: 'start',
-    alignContent: 'center',
-    fontSize: '1.5rem',
+    alignItems: 'center',
+    padding: '20px',
   },
   words: {
-    width: '45vw',
+    fontSize: '1.5rem',
+    lineHeight: '100px',
+    width: '55vw',
+    marginRight: '50px',
   },
   images: {
-    width: '45vw',
-    marginLeft: '20px'
+    height: '80vh',
+    // width: '35vw',
   }
 
 }));

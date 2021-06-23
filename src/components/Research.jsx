@@ -296,11 +296,10 @@ const Research = () => {
         <a href="https://mylearning.mitt.ca/d2l/le/content/12169/viewContent/62759/View" target="_blank" rel="noopener noreferrer">React Popular Products App</a><br />
         <h2>Day 3 (2021-06-16)</h2>
         <a href="https://mylearning.mitt.ca/d2l/le/content/12169/viewContent/62786/View" target="_blank" rel="noopener noreferrer">Final Project</a><br />
-        <h2>Day 5 (2021-06-19)</h2>
-        <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
         <h1>Week 21-SD260</h1>
         <h2>Day 2 (2021-06-22)</h2>
-        <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
+        <a href="https://material-ui.com/" target="_blank" rel="noopener noreferrer">Material-ui</a><br />
+        <h2>Day 3 (2021-06-23)</h2>
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
         <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />

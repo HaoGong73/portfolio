@@ -1,14 +1,28 @@
-import { Link } from 'react-router-dom';
+import Container from '@material-ui/core/Container';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  contactme: {
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '20px',
+    fontSize: '1.5rem',
+  },
+}));
 
 const ContactMe = () => {
+  const classes = useStyles();
+
   return (
-    <div className="main">
-      <div className="container contact-me">
-        <h2>Email Address</h2>
+    <>
+      <CssBaseline />
+      <Container fixed maxWidth="xl" className={classes.contactme}>
+        <h3>Email Address</h3>
         <p>gonghao73@gmail.com</p>
-        <br />
-      </div>
-    </div>
+      </Container>
+    </>
+
   );
 }
 
