@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
     justifyContent: 'start',
     alignItems: 'center',
-    padding: '100px',
+    padding: '60px',
   },
   article: {
     fontSize: '1.5rem',
