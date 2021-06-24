@@ -3,16 +3,13 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-  headAppBar: {
-    flexGrow: 1,
-  },
   homepage: {
     // marginRight: theme.spacing(2),
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'start',
     alignItems: 'center',
-    padding: '20px',
+    padding: '500px',
   },
   words: {
     fontSize: '1.5rem',
