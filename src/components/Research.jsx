@@ -11,9 +11,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'start',
     alignItems: 'center',
     padding: '20px',
+    fontSize: '1rem',
   },
   words: {
-    fontSize: '1.5rem',
     lineHeight: '100px',
     width: '55vw',
     marginRight: '50px',
@@ -330,9 +330,12 @@ const Research = () => {
           <h2>Day 2 (2021-06-22)</h2>
           <a href="https://material-ui.com/" target="_blank" rel="noopener noreferrer">Material-ui</a><br />
           <h2>Day 3 (2021-06-23)</h2>
-          <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
-          <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
-          <a href="/" target="_blank" rel="noopener noreferrer">aaa</a><br />
+          <a href="https://github.com/dcodeIO/bcrypt.js#readme" target="_blank" rel="noopener noreferrer">bcryptjs</a><br />
+          <h2>Day 4 (2021-06-24)</h2>
+          <a href="https://console.firebase.google.com/?pli=1" target="_blank" rel="noopener noreferrer">firebase</a><br />
+          <h2>Day 5 (2021-06-25)</h2>
+          <a href="https://developers.google.com/style" target="_blank" rel="noopener noreferrer">developer documentation style guide</a><br />
+          <a href="https://www.pixsy.com/academy/image-user/use-creative-commons-images/" target="_blank" rel="noopener noreferrer">How to use Creative Commons images</a><br />
         </div>
       </Container>
     </>

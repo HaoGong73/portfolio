@@ -7,10 +7,12 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     padding: '20px',
-    fontSize: '1.5rem',
+    fontSize: '1rem',
+    color: 'primary',
   },
   card: {
     margin: '20px',
+    // color: 'blue',
   }
 }));
 
@@ -20,19 +22,19 @@ const ContactMe = () => {
   return (
     <>
       <CssBaseline />
-      <Container fixed maxWidth="md" className={classes.contactme}>
+      <Container fixed maxWidth="sm" className={classes.contactme}>
         <div className={classes.card}>
           <h3>Email Address</h3>
           <p>gonghao73@gmail.com</p>
         </div>
         <div className={classes.card}>
-          <a href="https://www.facebook.com/hao.gong.169" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
+          <a href="https://www.facebook.com/hao.gong.169" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i>Facebook</a>
         </div>
         <div className={classes.card}>
-          <a href="https://twitter.com/gonghao1973" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
+          <a href="https://twitter.com/gonghao1973" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i>Twitter</a>
         </div>
         <div className={classes.card}>
-          <a href="https://www.instagram.com/hao.gong.169/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i></a>
+          <a href="https://www.instagram.com/hao.gong.169/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i>Instragram</a>
         </div>
       </Container>
     </>

@@ -7,13 +7,13 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'start',
-    alignItems: 'center',
+    alignItems: 'start',
     padding: '60px',
   },
   article: {
-    fontSize: '1.5rem',
+    fontSize: '1.1em',
     width: '60vw',
-    lineHeight: '50px',
+    lineHeight: '35px',
     marginLeft: '100px',
   },
   images: {

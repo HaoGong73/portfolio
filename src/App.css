@@ -12,21 +12,23 @@ body{
 
 
 .main-research a{
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding:2px;
   margin-left: 10px;
 }
-.main-research    h1{
-  background-color: aqua;
+.main-research h1{
+  font-size: 1rem;
+  background-color: rgb(101, 110, 235);
   margin: 5px;
 }
-.main-research    h2{
-  background-color: darkkhaki;
+.main-research h2{
+  font-size: 1rem;
+  background-color: rgb(191, 204, 223);
   margin: 5px;
 }
 
 .research a{
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding:2px;
   margin-left: 10px;
 }
@@ -39,7 +41,10 @@ body{
   margin: 5px;
 }
 
-
+i {
+  color: rgb(63,81,181);
+  margin-right: 20px;
+}
 /* =============================screen width 375px======================================= */
 @media only screen (min-width:375px){
   .theme img{

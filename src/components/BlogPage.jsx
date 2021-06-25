@@ -28,23 +28,28 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
+    alignItems: 'center',
   },
   title: {
-    fontSize: '1.5rem',
-    width: '60vw',
-    lineHeight: '50px',
-    // marginLeft: '100px',
+    fontSize: '1rem',
+    lineHeight: '40px',
   },
   author: {
-    fontSize: '1rem',
+    fontSize: '0.8rem',
   },
   date: {
-    fontSize: '1rem',
+    fontSize: '0.8rem',
   },
   cover: {
     height: '100px',
     width: '100px',
-  }
+  },
+  blogLink: {
+    textDecoration: 'none',
+  },
+  description: {
+    textDecoration: 'none',
+  },
 
 }));
 
@@ -52,69 +57,82 @@ const BlogPage = () => {
   const classes = useStyles();
   const blogList = [
     {
-      name: 'SSL',
-      link: 'https://docs.google.com/document/d/1T3MHihZCg9_INyns_P6BDGtrIg71em9O2zvbMAXddbY/edit?usp=sharing',
+      id: 1,
+      name: 'About SSL',
+      link: './blogs/blog1-About-SSL.pdf',
       imgLink: './images/SSL-Certificate.png',
-      date: '2021-05-10'
+      description: 'Intruduce SSL',
+      date: '2021-05-16'
     },
     {
+      id: 2,
       name: 'Password Management Attachments',
-      link: 'https://docs.google.com/document/d/1HfVGWiKjnRYdiE1fI51zDRaL7HgFN9jxnfQPIoW9-uk/edit?usp=sharing',
+      link: './blogs/blog2-Password-Management.pdf',
       imgLink: './images/password.png',
-      date: '2021-05-10'
+      description: 'Intruduce how to make your passords safe',
+      date: '2021-05-24'
     },
     {
+      id: 3,
       name: 'HTML & CSS',
-      link: 'https://docs.google.com/document/d/1l6c9GIBxzW9EPkhIkFEDv5K5zJg_3oE9xLUJ_ujvndo/edit?usp=sharing',
+      link: './blogs/blog3-HTML-CSS.pdf',
       imgLink: './images/htmlcss.jpg',
-      date: '2021-05-10'
+      description: 'Intruduce what are HTML & CSS',
+      date: '2021-05-30'
     },
     {
+      id: 4,
       name: 'Mohjiang Stradegy Guide',
-      link: 'https://docs.google.com/document/d/1L-rZLXS3YpiY01zOsJEDDArzwMASnRji0vuG_GLnAsw/edit?usp=sharing',
+      link: './blogs/blog4-Strategy-guides-for-Mahjong.pdf',
       imgLink: './images/mahjong.png',
-      date: '2021-05-10'
+      description: 'This is a markdown language practice assignment',
+      date: '2021-06-06'
     },
     {
+      id: 5,
       name: 'One Assignment',
-      link: 'https://docs.google.com/document/d/1gjHa3xXESqjjaYtgOs_2nivAYzkt-ElJrE_jkEmzLyY/edit?usp=sharing',
+      link: './blogs/blog5-Code-Snippets-and-Diagrams.pdf',
       imgLink: './images/snippet.png',
-      date: '2021-05-10'
+      description: 'This is an assignment of REACT js',
+      date: '2021-06-13'
     },
   ];
 
 
   return (<>
     <CssBaseline />
-    <Container fixed maxWidth="lg" className={classes.blogpage}>
+    <Container fixed maxWidth="md" className={classes.blogpage}>
       {
         blogList.map((blog, index) => {
           return <Card className={classes.blog} key={index}>
             <a
-              className="App-link"
+              className={classes.blogLink}
               href={blog.link}
-              target="_blank"
-              rel="noopener noreferrer"
+            // target="_blank"
+            // rel="noopener noreferrer"
             >
               <div className={classes.details}>
                 <CardContent className={classes.content}>
-                  <Typography component="h5" variant="h5">
+                  <Typography component="h5" variant="h5" className={classes.title}>
                     {blog.name}
                   </Typography>
-                  <Typography variant="subtitle1" color="textSecondary">
+                  <Typography variant="subtitle1" color="textSecondary" className={classes.author}>
                     Hao Gong
                   </Typography>
-                  <Typography variant="subtitle1" color="textSecondary">
+                  <Typography variant="subtitle1" color="textSecondary" className={classes.date}>
                     {blog.date}
+                  </Typography>
+                  <Typography variant="subtitle1" color="textSecondary" className={classes.description}>
+                    {blog.description}
                   </Typography>
                 </CardContent>
               </div>
             </a>
             <a
-              className="App-link"
+              // className={classes.blogLink}
               href={blog.link}
-              target="_blank"
-              rel="noopener noreferrer"
+            // target="_blank"
+            // rel="noopener noreferrer"
             >
               {<CardMedia
                 className={classes.cover}
@@ -127,62 +145,6 @@ const BlogPage = () => {
         })
       }
     </Container>
-    {/* <div className="main">
-      <div className="container  blog-page">
-        <div className="blog">
-          <a
-            className="App-link"
-            href="https://docs.google.com/document/d/1T3MHihZCg9_INyns_P6BDGtrIg71em9O2zvbMAXddbY/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >{"SSL"}
-          </a>
-        </div>
-        <div className="blog">
-          <a
-            className="App-link"
-            href="https://docs.google.com/document/d/1HfVGWiKjnRYdiE1fI51zDRaL7HgFN9jxnfQPIoW9-uk/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {"Password Management Attachments"}
-          </a>
-        </div>
-        <div className="blog">
-          <a
-            className="App-link"
-            href="https://docs.google.com/document/d/1l6c9GIBxzW9EPkhIkFEDv5K5zJg_3oE9xLUJ_ujvndo/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {"HTML & CSS"}
-          </a>
-        </div>
-        <div className="blog">
-          <a
-            className="App-link"
-            href="https://docs.google.com/document/d/1L-rZLXS3YpiY01zOsJEDDArzwMASnRji0vuG_GLnAsw/edit?usp=sharing
-
-            "
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {"Mohjiang Stradegy Guide"}
-          </a>
-        </div>
-        <div className="blog">
-          <a
-            className="App-link"
-            href="https://docs.google.com/document/d/1gjHa3xXESqjjaYtgOs_2nivAYzkt-ElJrE_jkEmzLyY/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {"One Assignment"}
-          </a>
-        </div>
-
-      </div>
-    </div> */}
 
   </>);
 }

@@ -19,9 +19,9 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   avatar: {
-    margin: theme.spacing(3),
-    width: theme.spacing(8),
-    height: theme.spacing(8),
+    margin: theme.spacing(2),
+    width: theme.spacing(6),
+    height: theme.spacing(6),
   },
 
 }));
@@ -36,11 +36,11 @@ const Header = () => {
           <Toolbar>
             <Avatar className={classes.avatar} alt="Hao Gong" src="./images/headpic-01.png" />
             <Typography variant="h6" className={classes.title}></Typography>
-            <Button component={Link} to="/" size="large" variant="contained" color="primary" disableElevation>home</Button>
-            <Button component={Link} to="/about-me" size="large" variant="contained" color="primary" disableElevation>about me</Button>
-            <Button component={Link} to="/blog-page" size="large" variant="contained" color="primary" disableElevation>my blog</Button>
-            <Button component={Link} to="/research" size="large" variant="contained" color="primary" disableElevation>research</Button>
-            <Button component={Link} to="/contact-me" size="large" variant="contained" color="primary" disableElevation>contact me</Button>
+            <Button component={Link} to="/" size="medium" variant="contained" color="primary" disableElevation>home</Button>
+            <Button component={Link} to="/about-me" size="medium" variant="contained" color="primary" disableElevation>about me</Button>
+            <Button component={Link} to="/blog-page" size="medium" variant="contained" color="primary" disableElevation>my blog</Button>
+            <Button component={Link} to="/research" size="medium" variant="contained" color="primary" disableElevation>research</Button>
+            <Button component={Link} to="/contact-me" size="medium" variant="contained" color="primary" disableElevation>contact me</Button>
           </Toolbar>
         </AppBar>
       </div>
