@@ -1,6 +1,4 @@
 import React from 'react';
-import Container from '@material-ui/core/Container';
-import CssBaseline from '@material-ui/core/CssBaseline';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -12,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
 
 const CreateList = ({ lists }) => {
   const classes = useStyles();
-  // console.log(lists);
+
   return (
     <>
       {

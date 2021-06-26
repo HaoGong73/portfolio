@@ -1,11 +1,6 @@
-import { Link, useParams } from 'react-router-dom';
-import Container from '@material-ui/core/Container';
-import CssBaseline from '@material-ui/core/CssBaseline';
 import { makeStyles } from '@material-ui/core/styles';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import Typography from '@material-ui/core/Typography';
-import CardMedia from '@material-ui/core/CardMedia';
 import CreateList from './CreateList';
 
 const useStyles = makeStyles((theme) => ({
@@ -74,6 +69,7 @@ const BlogPostPara = ({ para }) => {
             </ul>
           )
         }
+        return (<></>)
       })
     }
 

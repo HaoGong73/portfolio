@@ -1,7 +1,7 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
 import ContactPage from './components/ContactPage';
@@ -33,7 +33,7 @@ function App() {
           <ContactPage />
         </Route>
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

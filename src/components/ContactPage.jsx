@@ -9,14 +9,13 @@ const useStyles = makeStyles((theme) => ({
     padding: '20px',
     fontSize: '1rem',
     color: 'primary',
+    marginTop: '40px',
+    paddingLeft: '100px',
   },
   card: {
     margin: '20px',
-    // color: 'blue',
   },
-  ul: {
-    paddingLeft: '200px',
-  }
+
 }));
 
 const ContactMe = () => {

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { makeStyles } from '@material-ui/core/styles';
@@ -32,7 +31,7 @@ const Research = () => {
   return (
     <>
       <CssBaseline />
-      <Container fixed maxWidth="md" className={classes.research}>
+      <Container fixed maxWidth="sm" className={classes.research}>
 
         <div className="container main-research">
           <a href="https://mylearning.mitt.ca" >MyLearning-MITT</a>
@@ -105,7 +104,7 @@ const Research = () => {
           <h1>Week 4-SD130</h1>
           <h2>Day 4 (2021-02-25)</h2>
           <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank" rel="noopener noreferrer">Bash - Bourne Again Shell</a><br />
-          <a href="" target="_blank" rel="noopener noreferrer">CLI-Cheat-Sheet</a><br />
+          <a href="https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet" target="_blank" rel="noopener noreferrer">CLI-Cheat-Sheet</a><br />
           <a href="https://hyper.is/" target="_blank" rel="noopener noreferrer">Hyper Terminal Emulator</a><br />
           <a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting" target="_blank" rel="noopener noreferrer">Bash Colours</a><br />
           <a href="https://ss64.com/bash/syntax-prompt.html" target="_blank" rel="noopener noreferrer">Bash Prompt Variables</a><br />

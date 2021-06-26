@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { makeStyles } from '@material-ui/core/styles';
@@ -6,17 +6,10 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import Typography from '@material-ui/core/Typography';
 import BlogPostPara from './BlogPostPara';
-import CardMedia from '@material-ui/core/CardMedia';
-import { AcUnitRounded, CancelScheduleSendSharp } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
   bolgpost: {
-    // marginRight: theme.spacing(2),
-    // display: 'flex',
-    // flexDirection: 'row',
-    // justifyContent: 'start',
-    // alignItems: 'center',
-    // padding: '60px',
+    fontSize: '1rem',
   },
   title: {
     fontSize: '1.5rem',
@@ -37,7 +30,6 @@ const useStyles = makeStyles((theme) => ({
   },
   images: {
     height: '80vh',
-    // width: '35vw',
   },
   cite: {
     fontSize: '1rem',
@@ -54,7 +46,6 @@ const BlogPostPage = () => {
   const classes = useStyles();
   const { blogId } = useParams();
 
-  const [styles, setStyles] = useState();
   const [blog, setBlog] = useState({});
   const [body, setBody] = useState([]);
   const [cite, setCite] = useState([]);
@@ -67,18 +58,12 @@ const BlogPostPage = () => {
     setBlog(oneBlog[0]);
     setBody(oneBlog[0].body);
     setCite(oneBlog[0].cite);
-
-    setStyles(JSON.parse(localStorage.getItem('styles'))[0]);
   }, [])
 
   return (<>
     <CssBaseline />
     <Container fixed maxWidth="sm" className={classes.bolgpost}>
 
-      { // console.log(blog)
-        // <BlogHeader title={blog.title} author={blog.author} date={blog.post_date} description={blog.description} />
-        // <BlogBody body={blog.body}/>
-      }
       <Typography component="h3" variant="h3" className={classes.title}>
         {blog.title ?? ''}
       </Typography>

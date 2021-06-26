@@ -4,7 +4,6 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   homepage: {
-    // marginRight: theme.spacing(2),
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'start',
@@ -15,14 +14,11 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '1.1rem',
     lineHeight: '50px',
     width: '55vw',
-    paddingRight: '50px',
-    // paddingLeft: '150px',
-    // marginRight: '50px',
-
+    paddingRight: '100px',
+    marginLeft: '50px',
   },
   images: {
     height: '80vh',
-    // width: '35vw',
   }
 
 }));
