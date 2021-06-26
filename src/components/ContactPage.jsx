@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
   card: {
     margin: '20px',
     // color: 'blue',
+  },
+  ul: {
+    paddingLeft: '200px',
   }
 }));
 

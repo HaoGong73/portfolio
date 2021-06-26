@@ -11,6 +11,8 @@ import Typography from '@material-ui/core/Typography';
 import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import SkipNextIcon from '@material-ui/icons/SkipNext';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 const useStyles = makeStyles((theme) => ({
   blogpage: {
@@ -43,6 +45,8 @@ const useStyles = makeStyles((theme) => ({
   cover: {
     height: '100px',
     width: '100px',
+    marginRight: '15px',
+    borderRadius: '10px',
   },
   blogLink: {
     textDecoration: 'none',
@@ -97,49 +101,56 @@ const BlogPage = () => {
       date: '2021-06-13'
     },
   ];
+  const [styles, setStyles] = useState();
+  const [blogs, setBlogs] = useState([]);
 
+  useEffect(() => {
+    setStyles(JSON.parse(localStorage.getItem('styles')));
+    setBlogs(JSON.parse(localStorage.getItem('blogs')));
+  }, []);
 
   return (<>
-    <CssBaseline />
+    <CssBaseline />{console.log(blogs)}
     <Container fixed maxWidth="md" className={classes.blogpage}>
       {
-        blogList.map((blog, index) => {
-          return <Card className={classes.blog} key={index}>
-            <a
+        blogs.map((blog) => {
+          return <Card className={classes.blog} key={blog.id}>
+            <Link
               className={classes.blogLink}
-              href={blog.link}
+              to={`/blog-post-page/${blog.id}`}
             // target="_blank"
             // rel="noopener noreferrer"
             >
               <div className={classes.details}>
                 <CardContent className={classes.content}>
                   <Typography component="h5" variant="h5" className={classes.title}>
-                    {blog.name}
+                    {blog.title}
                   </Typography>
                   <Typography variant="subtitle1" color="textSecondary" className={classes.author}>
                     Hao Gong
                   </Typography>
                   <Typography variant="subtitle1" color="textSecondary" className={classes.date}>
-                    {blog.date}
+                    {blog.post_date}
                   </Typography>
                   <Typography variant="subtitle1" color="textSecondary" className={classes.description}>
                     {blog.description}
                   </Typography>
                 </CardContent>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               // className={classes.blogLink}
-              href={blog.link}
+              // href={blog.link}
+              to={`/blog-post-page/${blog.id}`}
             // target="_blank"
             // rel="noopener noreferrer"
             >
               {<CardMedia
                 className={classes.cover}
-                image={blog.imgLink}
-                title={blog.name}
+                image={blog.poster_path}
+                title={blog.title}
               />}
-            </a>
+            </Link>
 
           </Card>
         })

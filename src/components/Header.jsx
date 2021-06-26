@@ -7,6 +7,8 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Avatar from '@material-ui/core/Avatar';
+import { useEffect } from 'react';
+import * as FileAPI from '../services/FileAPI.js'
 
 const useStyles = makeStyles((theme) => ({
   headAppBar: {
@@ -28,6 +30,17 @@ const useStyles = makeStyles((theme) => ({
 
 const Header = () => {
   const classes = useStyles();
+
+  useEffect(() => {
+
+    fetch('./blogs/blogs.json')
+      .then(res => res.json())
+      .then(data => {
+        localStorage.setItem('styles', JSON.stringify(data.styles));
+        localStorage.setItem('blogs', JSON.stringify(data.blogs));
+      });
+
+  }, []);
 
   return (
     <>
