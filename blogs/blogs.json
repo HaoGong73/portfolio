@@ -1,0 +1,577 @@
+{
+  "styles": [
+    {
+      "id": 1,
+      "title": "frontSize:'1rem'",
+      "subtitle": "frontSize:'1rem'",
+      "author": "frontSize:'1rem'",
+      "post_date": "frontSize:'1rem'",
+      "description": "frontSize:'1rem'",
+      "list": "frontSize:'1rem'",
+      "item": "frontSize:'1rem'",
+      "cite": "frontSize:'1rem'"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "About SSL",
+      "author": "Hao Gong",
+      "post_date": "2021-05-16",
+      "description": "Intruction to SSL",
+      "poster_path": "./images/SSL-Certificate.png",
+      "body": [
+        {
+          "paragraph": "Do you think web security is important? How can we keep secure while we are surfing the internet? Today, we will talk about something about web security."
+        },
+        {
+          "subtitle": "What are SSL and TLS?",
+          "paragraph": "Secure Sockets Layer (SSL) is a security protocol that provides privacy, authentication, and integrity to Internet communications. SSL eventually evolved into Transport Layer Security (TLS)."
+        },
+        {
+          "paragraph": "TLS, the successor of the now deprecated  SSL, is a cryptographic protocol designed to provide communications security over a computer network. Several versions of the protocol are widely used in applications such as email, instant messaging, and voice over IP, but its use as the Security layer in HTTPS remains the most publicly visible.",
+          "image_link": "./images/blog01-01.png",
+          "image_dec": "https://support-en.mailbox.org/public/attachments/920bd51fb4e682f949f48c2c63822eae.png"
+        },
+        {
+          "paragraph": "The SSL/TLS protocol encrypts internet traffic of all types, making secure internet communication (and therefore internet commerce) possible. Here are the basics of how it works and what comes next."
+        },
+        {
+          "subtitle": "What is an SSL certificate?",
+          "paragraph": "SSL certificate，as the description in the previous section made clear, these certificates are at the heart of the SSL/TLS protocol: they provide the client with the public cryptographic key necessary to initiate secure connections. But their purpose goes beyond just supplying the key itself; they also authenticate that the key is in fact associated with the organization offering it to the client.",
+          "image_link": "",
+          "image_dec": ""
+        },
+        {
+          "subtitle": "TLS vs. SSL",
+          "paragraph": "When the next version of the protocol was released in 1999, it was standardized by the Internet Engineering Task Force (IETF) and given a new name: Transport Layer Security, or TLS. As the TLS specification notes, 'the differences between this protocol and SSL 3.0 are not dramatic.' Thus, it's not really a matter of TLS vs. SSL; rather, the two form a continuously updated series of protocols and are often lumped together as SSL/TLS.",
+          "image_link": "",
+          "image_dec": ""
+        },
+        {
+          "subtitle": "",
+          "paragraph": "The TLS protocol encrypts internet traffic of all types. The most common is web traffic; you know your browser is connected via TLS if the URL in your address starts with 'https,' and there's an indicator with a padlock telling you the connection is secure, as in this screenshot from Chrome: But TLS can be used by other applications as well, including e-mail and Usenet.",
+          "image_link": "",
+          "image_dec": ""
+        },
+        {
+          "subtitle": "Why is HTTP not secure? | HTTP vs. HTTPS",
+          "paragraph": "HTTP requests and responses are sent in plaintext, which means that anyone can read them. HTTPS corrects this problem by using TLS/SSL encryption.",
+          "image_link": "./images/blog01-02.jpg",
+          "image_dec": "https://www.x-cart.com/wp-content/uploads/2017/02/http_to_https-1.jpg"
+        },
+        {
+          "subtitle": "HTTP vs. HTTPS: What are the differences?",
+          "image_link": "./images/blog01-03.png",
+          "image_dec": "https://sucuri.net/images/17-sucuri-a-ssl-http-vs-https-chart@2.png",
+          "paragraph": "HTTPS is HTTP with encryption. The only difference between the two protocols is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses. As a result, HTTPS is far more secure than HTTP. A website that uses HTTP has http:// in its URL, while a website that uses HTTPS has https://."
+        },
+        {
+          "subtitle": "",
+          "image_link": "./images/blog01-04.png",
+          "image_dec": "google.com",
+          "paragraph": ""
+        },
+        {
+          "subtitle": "",
+          "paragraph": "So, now we know the concepts of SSL, TLS, HTTP, and HTTPS, and I hope it might help you keeping your security while you connect to the internet website.",
+          "image_link": "",
+          "image_dec": ""
+        }
+      ],
+      "file_link": "./blogs/blog1-About-SSL.pdf",
+      "cite": [
+        {
+          "link": " https://en.wikipedia.org/wiki/HTTPS"
+        },
+        {
+          "link": " https://en.wikipedia.org/w/index.php?title=Secure_Sockets_Layer&redirect=no"
+        },
+        {
+          "link": "https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0"
+        },
+        {
+          "link": "https://www.csoonline.com/article/3246212/what-is-ssl-tls-and-how-this-encryption-protocol-works.html"
+        },
+        {
+          "link": "https://www.websecurity.digicert.com/security-topics/what-is-ssl-tls-https"
+        },
+        {
+          "link": "https://www.cloudflare.com/"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Password Management",
+      "author": "Hao Gong",
+      "post_date": "2021-05-23",
+      "description": "Intruction to passwords management",
+      "poster_path": "./images/password.png",
+      "file_link": "./blogs/blog2-Password-Magagement.pdf",
+      "cite": [
+        {
+          "link": "  https://authy.com/what-is-2fa/"
+        },
+        {
+          "link": "  https://authy.com/what-is-2fa/"
+        }
+      ],
+      "body": [
+        {
+          "paragraph": "Have you ever had one of your online-account been hacked?  Did you keep your passwords securely?"
+        },
+        {
+          "paragraph": " Today, I am going to talk about what we can do to securely manage our passwords."
+        },
+        {
+          "subtitle": "Save your passwords in a good place",
+          "paragraph": "10-years-ago, I forgot the password to my email and I also forgot how to get the password back. I lost the data in that inbox forever."
+        },
+        {
+          "paragraph": " The reason I forgot was that is II had so many accounts and passwords, and I didn’t manage them well. So, I tried out various methods to save my passwords:"
+        },
+        {
+          "paragraph": "The SSL/TLS protocol encrypts internet traffic of all types, making secure internet communication (and therefore internet commerce) possible. Here are the basics of how it works and what comes next."
+        },
+        {
+          "lists": [
+            {
+              "list": "write them in a notebook"
+            },
+            {
+              "list": "save them in a document on my computer"
+            },
+            {
+              "list": "use password manager app"
+            }
+          ]
+        },
+        {
+          "subtitle": "Make your password stronger",
+          "paragraph": " Another time, my social media account was hacked. The hacker sent a lot of messages to my friends asking for money. After that,  I had to connect with my friends to explain what was going on."
+        },
+        {
+          "paragraph": "If you don’t want those hackers to guess your password easily, you have to follow some rules to strengthen your password, such as:",
+          "lists": [
+            {
+              "list": "use uppercase and lowercase at the same time"
+            },
+            {
+              "list": "use some numbers"
+            },
+            {
+              "list": "use some special character (s) !”$%&()*+,-./:;#<>?_@"
+            },
+            {
+              "list": "do not use your birthday"
+            },
+            {
+              "list": "do not make your password too short"
+            }
+          ]
+        },
+        {
+          "paragraph": " Furthermore, when you sign-up for an account, update the ways to gain entry again if you were to lose your password:",
+          "lists": [
+            {
+              "list": "include your phone number"
+            },
+            {
+              "list": "include your valid email address"
+            },
+            {
+              "list": "include your valid living address"
+            },
+            {
+              "list": "set sensible secure questions and remember the answers"
+            }
+          ]
+        },
+        {
+          "subtitle": "Avoid hackers’ attacks",
+          "paragraph": "  I heard a story about how a popular YouTuber lost her account. One day, she clicked an attachment of a suspect email, then the bad thing happened. She found that she couldn’t sign in to her YouTube account anymore; she was aware that a hacker had taken over her account. Fortunately, she got her account back, but that was a half month later. We could learn something from this story:",
+          "lists": [
+            {
+              "list": "don’t open suspect emails"
+            },
+            {
+              "list": "don’t click on suspect links"
+            }
+          ]
+        },
+        {
+          "subtitle": "Raise your security level",
+          "paragraph": "You should enable Two-Factor Authentication(2FA) to raise your security level.  2FA is an extra layer of security used to make sure that people trying to gain access to an online account are who they say they are. First, a user will enter their username and a password. Then, instead of immediately gaining access, they will be required to provide another piece of information. This second factor could come from one of the following categories(1):",
+          "lists": [
+            {
+              "list": "Something you know: This could be a personal identification number (PIN), a password, answers to “secret questions” or a specific keystroke pattern"
+            },
+            {
+              "list": "Something you have: Typically, a user would have something in their possession, like a credit card, a smartphone, or a small hardware token"
+            },
+            {
+              "list": "Something you are: This category is a little more advanced, and might include a biometric pattern of a fingerprint, an iris scan, or a voiceprint(2)"
+            }
+          ]
+        },
+        {
+          "paragraph": " All in all, If you follow the advice above, I think you could manage your passwords well."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "HTML & CSS",
+      "author": "Hao Gong",
+      "post_date": "2021-05-30",
+      "description": "Intruction to HTML & CSS",
+      "poster_path": "./images/htmlcss.jpg",
+      "file_link": "./blogs/blog3-HTML-CSS.pdf",
+      "cite": [
+        {
+          "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "link": "https://www.w3schools.com/html/html_attributes.asp"
+        },
+        {
+          "link": "https://www.w3schools.com/html/html_blocks.asp"
+        },
+        {
+          "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "link": "https://www.w3schools.com/css/css_syntax.ASP"
+        }
+      ],
+      "body": [
+        {
+          "paragraph": "You can’t develop a website APP without HTML & CSS. Now, I am trying to introduce them to you."
+        },
+        {
+          "subtitle": "What is HTML",
+          "paragraph": " HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.1 A HTML element can be described by the following graphic:",
+          "image_link": "./images/blog03-01.png",
+          "image_dec": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2FFile%3AHTML"
+        },
+        {
+          "subtitle": "What is HTML attributes and values",
+          "paragraph": "HTML attributes provide additional information about HTML elements.2All HTML elements can have attributes:"
+        },
+        {
+          "lists": [
+            {
+              "list": "Attributes provide additional information about elements"
+            },
+            {
+              "list": "Attributes are always specified in the start tag"
+            },
+            {
+              "list": "Attributes usually come in name/value pairs like: name='value'"
+            }
+          ]
+        },
+        {
+          "subtitle": "What are inline elements and block elements",
+          "paragraph": "Every HTML element has a default display value, depending on what type of element it is.3 There are two display values: block and inline."
+        },
+        {
+          "paragraph": "Block-level Elements:",
+          "lists": [
+            {
+              "list": "A block-level element always starts on a new line."
+            },
+            {
+              "list": "A block-level element always takes up the full width available (stretches out to the left and right as far as it can)."
+            },
+            {
+              "list": "A block-level element has a top and a bottom margin, whereas an inline element does not."
+            }
+          ]
+        },
+        {
+          "paragraph": "Here are some of the block-level elements in HTML:"
+        },
+        {
+          "paragraph": "<div>,<section>,<p>,<header>,<main>,<footer>,<form>,<h1>-<h6>,<li>,<ol>,<ul>,<table>"
+        },
+        {
+          "paragraph": "Inline Elements:",
+          "lists": [
+            {
+              "list": "An inline element does not start on a new line."
+            },
+            {
+              "list": "An inline element only takes up as much width as necessary."
+            }
+          ]
+        },
+        {
+          "paragraph": "Here are the inline elements in HTML:"
+        },
+        {
+          "paragraph": "<span>,<a>,<button>,<img>,<i>,<em>,<input>,<output>,<script>,<select>"
+        },
+        {
+          "subtitle": "What is CSS",
+          "paragraph": " Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML . 4CSS describes how elements should be rendered on screen, on paper, in speech, or on other media."
+        },
+        {
+          "subtitle": "what is a CSS rule",
+          "paragraph": "A CSS rule consists of a selector and a declaration block. 5 It  can be described by the following graphic:",
+          "image_link": "./images/blog03-02.gif",
+          "image_dec": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fcss_syntax.ASP"
+        },
+        {
+          "subtitle": "What is a CSS selector",
+          "paragraph": "In CSS, selectors are used to pointing the HTML elements on our web pages that we want to style."
+        },
+        {
+          "subtitle": "What is a CSS value",
+          "paragraph": "Each declaration includes a CSS property name and a value, separated by a colon. The values tell the browser how to style the selector."
+        },
+        {
+          "paragraph": "To summarize, you can imagine that HTML is all the material for building a house; CSS is the designer and builder who assemble your house, paint your house, and decorate your house. That is how they work together."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Strategy guides for Mahjong",
+      "author": "Hao Gong",
+      "post_date": "2021-06-06",
+      "description": "Intruction to Strategy guides for Mahjong",
+      "poster_path": "./images/mahjong.png",
+      "file_link": "./blogs/blog4-Strategy-guides-for-Mahjong.pdf",
+      "cite": [
+        {
+          "link": "https://www.chinaeducationaltours.com/"
+        },
+        {
+          "link": "https://www.chinaeducationaltours.com/"
+        },
+        {
+          "link": "https://www.chinaeducationaltours.com/"
+        }
+      ],
+      "body": [
+        {
+          "paragraph": "Mahjong is almost *the most popular traditional game* in China. It is easy to play with, but it is not easy to be good at it. If this is your first time playing Mahjong, please click this link to learn the rules [Mahjong rules](https://corp.mahjongclub.com/basic-rules)."
+        },
+        {
+          "paragraph": "Mahjong strategy guides are **important**: *they will help you win more and lose less.*"
+        },
+        {
+          "paragraph": "Today, I would like to introduce you 6 Mahjong strategies to help you improve your Mahjong skills."
+        },
+        {
+          "subtitle": "1. Be concentrated and careful",
+          "paragraph": " Looking carefully and analyzing what are in your hand,  and placing those cards in order,  so that you can watch them clearly and avoid some stupid mistakes."
+        },
+        {
+          "subtitle": " 2. Always have a clear plan",
+          "paragraph": " Think carefully about which tiles you choose to pick up and which ones you don’t. You should always have a clear plan of action or at least have a fairly good idea where you want to go with your hand."
+        },
+        {
+          "paragraph": "Some famous biggest plans make 88 points once you win:"
+        },
+        {
+          "image_link": "./images/blog04-01.jpg",
+          "image_dec": "Big four wind.[https://www.chinaeducationaltours.com/media/image/2020-08/15983217178234.jpg]"
+        },
+        {
+          "image_link": "./images/blog04-02.jpg",
+          "image_dec": "Big three dragons.[https://www.chinaeducationaltours.com/media/image/2020-08/15983216887220.jpg]"
+        },
+        {
+          "image_link": "./images/blog04-03.jpg",
+          "image_dec": "thirteen orphans.[https://www.chinaeducationaltours.com/media/image/2020-08/15983216248563.jpg]"
+        },
+        {
+          "subtitle": "3.  Be flexible with your strategies",
+          "paragraph": "If the game changes direction, you should be prepared to change your plan. Be flexible; change your strategy when and if it’s necessary."
+        },
+        {
+          "subtitle": "4. Don’t grab the first discard",
+          "paragraph": "Taking the first discard can reveal too much of what you already have. To an astute observer of what you are doing, you will give away your game plan."
+        },
+        {
+          "subtitle": "5. Keep a pair in your hand",
+          "paragraph": "If you have a pair, keep it. You can always make a Pung as you go along, and it’s easier if you already have a pair or two in your hand."
+        },
+        {
+          "paragraph": "You can use them as pairs or build a Pung (three of a kind), a Chow (three tiles of the same suit), or even a Kong (four of a kind)."
+        },
+        {
+          "subtitle": "6. Avoid having gaps in your tiles",
+          "paragraph": "New players to Mahjong are quite often tempted to leave gaps between their tiles when setting up their rack. It’s easy to understand why. Lining up your tiles in combinations makes it easier for you to see your next moves. They will adjust their strategy to include blocking."
+        },
+        {
+          "subtitle": " More practice",
+          "paragraph": "No matter how much research you do, you will learn the best strategies by playing the game. Remember, practice makes perfect. "
+        },
+        {
+          "paragraph": "At the end of the day, sit down, turn on your computer, play Mohjang online, and use those strategies. You are so guaranteed to have fun."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Bookshelf App --code snippets",
+      "author": "Hao Gong",
+      "post_date": "2021-06-13",
+      "description": "Intruction to an assignment",
+      "poster_path": "./images/snippet.png",
+      "file_link": "./blogs/blog5-Code-Snippets-ane-Diagrams.pdf",
+      "cite": [
+        {
+          "link": "https://docs.google.com/document/d/1T8cvhfYDm7dGmm8AVJQEJrrywXvL6rzwB-PPU3dbuDA/edit?usp=sharing"
+        }
+      ],
+      "body": [
+        {
+          "paragraph": "This assignment is called Bookshelf App. It is a really good exercise for a React JS beginner. React JS is a JavaScript library for building user interfaces. I finished it with the following steps."
+        },
+        {
+          "subtitle": "1. Generate the main page and search page",
+          "image_link": "./images/blog05-01.png",
+          "image_dec": "Figure 1. main page"
+        },
+        {
+          "paragraph": "The main page displays three bookshelves: Currently, Reading, Want to and Read. A button shows a dropdown menu at each book’s right bottom corner to move this book to a different shelf."
+        },
+        {
+          "paragraph": "If you want to jump to the search page, click the green “+” button at the bottom right of the page."
+        },
+        {
+          "image_link": "./images/blog05-02.png",
+          "image_dec": "Figure 2. Search Page"
+        },
+        {
+          "paragraph": "On the search page, you can search for books by inputting the book’s name or author’s name in the yellow block."
+        },
+        {
+          "paragraph": "By this time, each input letter can trigger an API request to the server, so the page will be refreshed very quickly."
+        },
+        {
+          "paragraph": "If you want to return to the main page, click the left arrow button on the top left of this page."
+        },
+        {
+          "paragraph": "./App.js:"
+        },
+        {
+          "image_link": "./images/blog05-03.png",
+          "image_dec": "Figure 3. The main structure of the App function"
+        },
+        {
+          "paragraph": "The React App always starts from a single function. In this case, I chose hooks（ useState, useEffect, Router, Switch, Route, and Link to establish this App."
+        },
+        {
+          "paragraph": "<Route exact path=\"/\"> is setting the main page, and <Route path=\"/search\"> is setting the search page."
+        },
+        {
+          "subtitle": "2.  Compose two components for main page shelves and search page",
+          "paragraph": "In figure 3, two components were called: BookShelfPage and SearchPage. In this step, I established those components. BookShelfPage generates the main page, BookShelfPage calls BookOnShelf to put books onto different shelves where they belong."
+        },
+        {
+          "paragraph": "SearchPage calls SearchBooks to require data from API and displays the results on this page."
+        },
+        {
+          "subtitle": "3.  Compose services API and utility function",
+          "paragraph": "./servers/BooksAPI.js"
+        },
+        {
+          "image_link": "./images/blog05-04.png",
+          "image_dec": "Figure 4. API for requiring data"
+        },
+        {
+          "paragraph": "In this case, I build a json-server for requiring data and update data. "
+        },
+        {
+          "paragraph": "./utility/Utility.js"
+        },
+        {
+          "image_link": "./images/blog05-05.png",
+          "image_dec": "Figure 5. tools"
+        },
+        {
+          "paragraph": "Function joinAuthors() for joining several authors in a line joined by ‘&’; Function imageLink() check and chose an image link for the book’s cover."
+        },
+        {
+          "subtitle": "4.  use debounce"
+        },
+        {
+          "image_link": "./images/blog05-06.png",
+          "image_dec": "Figure 6. debounce"
+        },
+        {
+          "paragraph": "Then, when you input the searching key on the search page, it only triggers one API call if you type your key continuously."
+        },
+        {
+          "paragraph": "In Summary, I learned how to build a one-page app through React JS, and I had a lot of fun."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Learning frontend development step by step",
+      "author": "Hao Gong",
+      "post_date": "2021-06-25",
+      "description": "Intruction to Learning frontend development step by step",
+      "poster_path": "./images/frontend.png",
+      "file_link": "./blogs/blog5-Code-Snippets-ane-Diagrams.pdf",
+      "cite": [
+        {
+          "link": "https://mylearning.mitt.ca"
+        }
+      ],
+      "body": [
+        {
+          "paragraph": "I started learning software development at MITT in Jenuary 2021. I have never learned web development before, so this stuff is all new to me. After 5 months of study, I feel I just enter the entance of front-end development, and I’d like to share my learning steps with you. "
+        },
+        {
+          "subtitle": "1. HTML & CSS",
+          "image_link": "./images/blog06-01.png",
+          "image_dec": "https://images.yourstory.com/production/document_image/mystoryimage/e67sv338-html-css.jpg"
+        },
+        {
+          "paragraph": "HTML is the standard markup language for Web pages. With HTML you can create your own Website. CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. (Three weeks study)"
+        },
+        {
+          "paragraph": "The first course of the frontend portion of the program introduces me to the hands-on, project-based approach of the Software Developer program. I began developing mycoding skills by building responsive websites, such as a portfolio to display images, descriptions, and links to the projects created throughout the program."
+        },
+        {
+          "subtitle": "2. Javascripts Basics",
+          "image_link": "./images/blog06-02.png",
+          "image_dec": "https://www.tutorialrepublic.com/lib/images/javascript-illustration.png"
+        },
+        {
+          "paragraph": "JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web."
+        },
+        {
+          "paragraph": "I developed basic JavaScript skills through hands-on experiences and will showcase my abilities by building an interactive web version of the classic game ‘concentration’.(Four weeks study)"
+        },
+        {
+          "subtitle": "3. Javascripts object-oriented",
+          "image_link": "./images/blog06-03.png",
+          "image_dec": "https://www.freecodecamp.org/news/content/images/2020/02/OOP-IN-JS-1.png"
+        },
+        {
+          "paragraph": "I build on my existing JavaScript skills, exploring Javascript objects, prototypes, and classes. I will also be introduced to the new syntax and features added to the JavaScript language as part of the ES6 specification. Putting all this together, I constructed and controlled player characters and enemies to recreate the classic arcade game ‘Frogger’ and a Budget Calculator app.(Three weeks study)"
+        },
+        {
+          "subtitle": "4. React js",
+          "image_link": "./images/blog06-04.png",
+          "image_dec": "https://www.mindinventory.com/blog/wp-content/uploads/2019/06/reactjs-benefits.jpg"
+        },
+        {
+          "paragraph": "React is a JavaScript library for building user interfaces. "
+        },
+        {
+          "paragraph": "This course allows me to develop my knowledge of front-end frameworks, diving into React.js. I learned how to install and manage a React.js installation, and how to use it to create dynamic and stateful single-page web apps. Modifying existing apps and creating new apps will provide students with a well-rounded understanding of how to build applications and use them to their full potential.(Four weeks study)"
+        }
+      ]
+    }
+  ]
+}
