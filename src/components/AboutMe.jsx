@@ -11,9 +11,9 @@ const useStyles = makeStyles((theme) => ({
     padding: '60px',
   },
   article: {
-    fontSize: '1.1em',
+    fontSize: '1.3em',
     width: '60vw',
-    lineHeight: '35px',
+    lineHeight: '40px',
     marginLeft: '100px',
   },
   images: {

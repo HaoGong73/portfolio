@@ -37,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
   },
   date: {
     fontSize: '0.8rem',
+    marginTop: '1.5rem',
   },
   cover: {
     height: '100px',
