@@ -14,10 +14,15 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '1.3em',
     width: '60vw',
     lineHeight: '40px',
-    marginLeft: '100px',
+    marginRight: '50px',
   },
   images: {
     height: '80vh',
+    marginLeft: '50px',
+    marginRight: '100px',
+  },
+  paragraph: {
+    marginTop: '20px',
   }
 
 }));
@@ -33,21 +38,21 @@ const AboutMe = () => {
         <img className={classes.images} src="./images/glacier-2019-02.jpg" alt={"ice land"} />
         <div className={classes.article}>
           <h3>About me</h3>
-          <p>
+          <p className={classes.paragraph}>
             My name is Hao Gong, and I am from Changchun, China.
           </p>
-          <p>
+          <p className={classes.paragraph}>
             When I was in university I studied in the computer science department. After graduated from university in 1996,  I have worked as a software developer for more than  20 years. I have participated in more than 20 software projects and most of them were for the banks.
           </p>
-          <p>
+          <p className={classes.paragraph}>
             Last year, I decided to make some changes in my life, and I also can provide a chance to my son to study in Canada. So, I came over to Canada and join MITT.
 
           </p>
-          <p>
+          <p className={classes.paragraph}>
             I like to travel all over the world. So far, I have been to the USA, Maldives, Singapore, and Canada.
 
           </p>
-          <p>
+          <p className={classes.paragraph}>
             There are three people in my family, my wife, my son, and me.  They cannot come to Canada now because of the pandemic. I hope they could come to Canada soon.
 
           </p>

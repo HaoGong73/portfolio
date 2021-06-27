@@ -34,7 +34,7 @@ const Research = () => {
       <Container fixed maxWidth="sm" className={classes.research}>
 
         <div className="container main-research">
-          <a href="https://mylearning.mitt.ca" >MyLearning-MITT</a>
+          <a href="https://mylearning.mitt.ca" >My Learning Steps at MITT</a>
           <h1>Week 1 - SD100</h1>
           <h2>Day 1 (2021-02-01)</h2>
           <a href="https://mylearning.mitt.ca/d2l/le/content/12159/viewContent/41553/View" target="_blank" rel="noopener noreferrer">Activity: Files, Directories, and Paths</a><br />
